@@ -10,7 +10,7 @@
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "api-gateway": "node dist/main",
-    "user": "cd user && npm i && node dist/main",
+    "user": "cd user && npm i && npm run build && node dist/main",
     "category": "cd category && npm i && node dist/main",
     "expense": "cd expense && npm i && node dist/main",
     "income": "cd income && npm i && node dist/main",
