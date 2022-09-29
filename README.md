@@ -1,1 +1,1 @@
-# fma
+# finance-manager
