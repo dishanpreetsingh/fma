@@ -9,7 +9,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "api-gateway": "node nest start",
+    "api-gateway": "nest start",
     "user": "cd user && npm i && nest start",
     "category": "cd category && npm i && nest start",
     "expense": "cd expense && npm i && nest start",
