@@ -9,6 +9,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "postinstall": "npm run prestart:prod",
     "api-gateway": "node dist/src/main",
     "user":"cd user && npm i && node dist/main",
     "category": "cd category && npm i && node dist/main",
