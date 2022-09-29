@@ -9,7 +9,7 @@ export class ConfigService {
         this.envConfig.userService = {
             options: {
                 port: process.env.PORT || 5002,
-                host: process.env.USER_SERVICE_HOST || '0.0.0.0',
+                host: process.env.USER_SERVICE_HOST || '127.0.0.1',
             },
             transport: Transport.TCP
         },

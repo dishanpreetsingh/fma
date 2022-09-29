@@ -7,7 +7,7 @@ export class ConfigService {
     this.envConfig = {
       port: process.env.PORT || 5002,
     };
-    this.envConfig.baseUri = process.env.BASE_URI || '0.0.0.0';
+    this.envConfig.baseUri = process.env.BASE_URI || '127.0.0.1';
     this.envConfig.gatewayPort = process.env.PORT || 5000;
   }
 
